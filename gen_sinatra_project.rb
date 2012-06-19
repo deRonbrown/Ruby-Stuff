@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 app_name = ARGV[0]
 if app_name.nil?
   puts "An app name must be specified."
