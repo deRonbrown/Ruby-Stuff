@@ -51,7 +51,7 @@ open("#{app_name}/config.ru", 'a') { |f|
 }
 
 # database.yml
-open("#{app_name}/db/database.yml", 'a')
+open("#{app_name}/config/database.yml", 'a')
 
 # helpers/init.rb
 open("#{app_name}/helpers/init.rb", 'a') { |f|
